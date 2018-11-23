@@ -1,111 +1,108 @@
 <!doctype html>
 <html>
-<head>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127075676-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!--Import Google Icon Font-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> <!--Import materialize.css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--Let browser know website is optimized for mobile-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
-  gtag('config', 'UA-127075676-1');
-</script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127075676-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-127075676-1');
+    </script>
+    <title>Impacto APM</title>
 
-</head>
+  </head>
 	<body>
-				<nav>
-		          <div class="nav-wrapper green darken-3">
-	                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-	                    <li><a href="index.html">Inicio</a></li>
-	                  </ul>
-			          <a  class="brand-logo center">Agroquímicos, progreso y muerte</a>
-						<ul id="nav-mobile" class="right hide-on-med-and-down">
-						 <li><a href="A&Q.html">Agricultura</a></li>
-							<li><a href="Peligro.html">Peligro</a></li>
-					        <li><a href="Impacto.html">Impacto</a></li>
-							<li><a href="Soluciones.html">Soluciones</a></li>
-	   				    </ul>
-		            </div>
-		          </nav>
 
+    <div class="navbar-fixed">
+      <nav class="green darken-3">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo center" style="font-size: 3vw">Agroquímicos, progreso y muerte</a>
+          <!--<a href="index.html" class="brand-logo center">Agroquímicos, progreso y muerte</a>-->
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="index.html" style="font-size: 1vw">Inicio</a></li>
+            <ul class="right">
+              <li><a href="A&Q.html" style="font-size: 1vw">Agricultura</a></li>
+              <li><a href="Impacto.html" style="font-size: 1vw">Impacto</a></li>
+              <li><a href="Soluciones.html" style="font-size: 1vw">Soluciones</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav grey lighten-2" id="mobile-demo">
+      <li><a href="Nosotros.html">Inicio</a></li>
+      <li><a href="A&Q.html">Agricultura</a></li>
+      <li><a href="Impacto.html">Impacto</a></li>
+      <li><a href="Soluciones.html">Soluciones</a></li>
+    </ul>
 
+    <div class="container">
+        <h3 align="center">¿Cuál es el impacto?</h3>
+  			<p align="center" style="font-size:20px">
+  							El uso indiscriminado de agroquímicos ha venido manifestando el surgimiento
+  							de algunos problemas o repercusiones, pues se han manifestado en temas de
+  							gran importancia ocasionando graves daños al medio ambiente y a la calidad
+  							de vida de las personas, principalmente perjudicando la salud. Esto sucede
+  							en la mayor parte de las regiones agrícolas.</p>
 
+      <div class="card">
+  		    <div class="card-image waves-effect waves-block waves-light">
+  			     <img class="activator" src="images/oms.svg">
+  		    </div>
+  	      <div class="card-content">
+  		        <span class="card-title activator grey-text text-darken-4">Según la OMS...<i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+  		        <span class="card-title grey-text text-darken-4">Opinión de los expertos<i class="material-icons right">close</i></span>
+  				    <p style="font-size:20px">Según La Organización Mundial de la Salud (OMS) estima que cada año se producen 25 millones
+  											 de intoxicaciones por venenos agroquímicos en el mundo, y alrededor de 20.000 muertes
+  											 provocadas por ellas, calculando que el 99% ocurren en las naciones “en desarrollo”, como la nuestra.</p>
+  		    </div>
+      </div>
+  		<div class="row">
+  		    <div class="col s12 green"></div>
+  	  </div>
+  	 <div align="center">
+  		 <img src="images/Experto.jpeg" alt="" class="circle responsive-img" width="500" height="300">
+  		   <p style="font-size:20px">Luis Rodriguez<br>Coordinador de la junta local de sanidad vegetal del valle del Carrizo</p>
+  			 <div class="card-panel grey darken-1">
+  			      <span class="white-text">
+  				          <p style="font-size:22px">“El uso de agroquímicos se ha convertido en algo indispensable en la agricultura moderna, sin embargo se está consciente del gran daño que causa en el medio ambiente y en la salud de las personas, para ello existen varias leyes y regulaciones que ayudan a disminuir el uso de estos pero, la verdad es que no se respetan, tal vez por la falta de atención por parte del gobierno o por la imprudencia de la gente, lo que nosotros sabemos en sanidad vegetal es que el uso de agroquímicos favorece a la producción y utilizar sustitutos amigables resulta muy costoso sin el apoyo gubernamental, en eso es en lo que trabajamos”</p>
+              </span>
+         </div>
+  	 </div>
+     <a href="EntrevistaExperto.html" text-align="right">Leer entrevista completa</a>
+     <div class="row">
+  	    <div class="col s12 green"></div>
+   	 </div>
+   	 <div align="center">
+  	    <img src="images/Agricultores.jpg" alt="" class="circle responsive-img" width="500" height="300">
+  			   <p style="font-size:20px">Rubén Aboyte y Luz Valenzuela<br>Agricultores del valle del Yaqui</p>
+  				 <div class="card-panel grey darken-1">
+  				    <span class="white-text">
+  				        <p style="font-size:22px">“La verdad es que yo como la gran mayoría de mis compañeros agricultores hacemos uso de agroquímicos más que nada por la mejora en la producción que provoca, conocemos los problemas que ocasionan pero, no tenemos otra alternativa, usar productos que sustituyan a los agroquímicos nos resulta muy caro sin la ayuda del gobierno”. Rubén Aboyte</p>
+              </span>
+           </div>
+  	 </div>
+     <a href="EntrevistaAgricultor.html" text-align="right">Leer entrevista completa</a>
+       <div class="row">
+   		    <div class="col s12 green"></div>
+   		 </div>
+  </div>
 
-
-<div class="container">
-
-
-
-            <h3 align="center">¿Cuál es el impacto?</h3>
-						<p align="center" style="font-size:20px">
-							El uso indiscriminado de agroquímicos ha venido manifestando el surgimiento
-							de algunos problemas o repercusiones, pues se han manifestado en temas de
-							gran importancia ocasionando graves daños al medio ambiente y a la calidad
-							de vida de las personas, principalmente perjudicando la salud. Esto sucede
-							en la mayor parte de las regiones agrícolas.</p>
-
-							<div class="card">
-							    <div class="card-image waves-effect waves-block waves-light">
-							      <img class="activator" src="images/oms.svg">
-							    </div>
-							    <div class="card-content">
-							      <span class="card-title activator grey-text text-darken-4">Según la OMS...<i class="material-icons right">more_vert</i></span>
-
-							    </div>
-							    <div class="card-reveal">
-							      <span class="card-title grey-text text-darken-4">Opinión de los expertos<i class="material-icons right">close</i></span>
-							      <p style="font-size:20px">Según La Organización Mundial de la Salud (OMS) estima que cada año se producen 25 millones
-											 de intoxicaciones por venenos agroquímicos en el mundo, y alrededor de 20.000 muertes
-											 provocadas por ellas, calculando que el 99% ocurren en las naciones “en desarrollo”, como la nuestra.
-										 </p>
-							    </div>
-							  </div>
-
-							<div class="row">
-			                  <div class="col s12 green">
-			                  </div>
-			                </div>
-
-							 <div align="center">
-								 <img src="images/Experto.jpeg" alt="" class="circle responsive-img" width="500" height="300">
-								 <p style="font-size:20px">Luis Rodriguez<br>Coordinador de la junta local de sanidad vegetal del valle del Carrizo</p>
-								 <div class="card-panel grey darken-1">
-				                  <span class="white-text">
-				                    <p style="font-size:22px">“El uso de agroquímicos se ha convertido en algo indispensable en la agricultura moderna, sin embargo se está consciente del gran daño que causa en el medio ambiente y en la salud de las personas, para ello existen varias leyes y regulaciones que ayudan a disminuir el uso de estos pero, la verdad es que no se respetan, tal vez por la falta de atención por parte del gobierno o por la imprudencia de la gente, lo que nosotros sabemos en sanidad vegetal es que el uso de agroquímicos favorece a la producción y utilizar sustitutos amigables resulta muy costoso sin el apoyo gubernamental, en eso es en lo que trabajamos”</p>
-
-				                  </span>
-				                </div>
-							 </div>
-               <a href="EntrevistaExperto.html" text-align="right">Leer entrevista completa</a>
-               <div class="row">
- 			                  <div class="col s12 green">
- 			                  </div>
- 			        </div>
-
-							<div align="center">
-								 <img src="images/Agricultores.jpg" alt="" class="circle responsive-img" width="500" height="300">
-								 <p style="font-size:20px">Rubén Aboyte y Luz Valenzuela<br>Agricultores del valle del Yaqui</p>
-								 <div class="card-panel grey darken-1">
-				                  <span class="white-text">
-				                    <p style="font-size:22px">“La verdad es que yo como la gran mayoría de mis compañeros agricultores hacemos uso de agroquímicos más que nada por la mejora en la producción que provoca, conocemos los problemas que ocasionan pero, no tenemos otra alternativa, usar productos que sustituyan a los agroquímicos nos resulta muy caro sin la ayuda del gobierno”. Rubén Aboyte</p>
-
-                          </span>
-				                </div>
-							 </div>
-               <a href="EntrevistaAgricultor.html" text-align="right">Leer entrevista completa</a>
-
-               <div class="row">
- 			                  <div class="col s12 green">
- 			                  </div>
- 			        </div>
-
-		</div>
-
-
+  <script type="text/javascript" src="js/materialize.min.js"></script> <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/miJavaScript.js"></script>
 
 	</body>
 </html>

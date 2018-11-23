@@ -1,66 +1,67 @@
 <!doctype html>
 <html>
 <head>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127075676-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!--Import Google Icon Font-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> <!--Import materialize.css-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--Let browser know website is optimized for mobile-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
-  gtag('config', 'UA-127075676-1');
-</script>
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127075676-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-127075676-1');
+  </script>
+  <title>Peligro APM</title>
 </head>
 	<body>
-		<nav>
-		            <div class="nav-wrapper green darken-3">
-                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="index.html">Inicio</a></li>
-  		              <a  class="brand-logo center">Agroquímicos, progreso y muerte</a>
-                  </ul>
-									<ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="A&Q.html">Agricultura</a></li>
-                    <li><a href="Peligro.html">Peligro</a></li>
-                    <li><a href="Impacto.html">Impacto</a></li>
-                    <li><a href="Soluciones.html">Soluciones</a></li>
-							      </ul>
-		            </div>
-		          </nav>
+    <div class="navbar-fixed">
+      <nav class="green darken-3">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo center" style="font-size: 3vw">Agroquímicos, progreso y muerte</a>
+          <!--<a href="index.html" class="brand-logo center">Agroquímicos, progreso y muerte</a>-->
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="index.html" style="font-size: 1vw">Inicio</a></li>
+            <ul class="right">
+              <li><a href="A&Q.html" style="font-size: 1vw">Agricultura</a></li>
+              <li><a href="Impacto.html" style="font-size: 1vw">Impacto</a></li>
+              <li><a href="Soluciones.html" style="font-size: 1vw">Soluciones</a></li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
+    <ul class="sidenav grey lighten-2" id="mobile-demo">
+      <li><a href="Nosotros.html">Inicio</a></li>
+      <li><a href="A&Q.html">Agricultura</a></li>
+      <li><a href="Impacto.html">Impacto</a></li>
+      <li><a href="Soluciones.html">Soluciones</a></li>
+    </ul>
 
-
-
-
-<div class="container">
-
-              <h3 align="center">Peligro</h3>
-              <center>
-              <img src="images/peligro.png" align="center" width="200" height="200">
-            </center>
-
-
-
-                <div class="card-panel grey darken-1">
-                  <span class="white-text">
-                    <p style="font-size:25px">Estas sustancias son favorables para los campos agrícolas pero no para las personas que radican
+    <div class="container">
+      <h3 align="center">Peligro</h3>
+      <center><img src="images/peligro.png" align="center" width="200" height="200"></img></center>
+      <div class="card-panel grey darken-1">
+        <span class="white-text">
+          <p style="font-size:25px">Estas sustancias son favorables para los campos agrícolas pero no para las personas que radican
                      a sus alrededores,  pues se han presentado casos de enfermedades severas en las personas,
                      como pulmonares, cardíacas, cancerígenas, como también ocasionan partos prematuros, debido a
                       la cantidad de tóxicos que contienen.</p>
-                  </span>
-                </div>
-
-                <div class="row">
-                  <div class="col s12 green">
-                  </div>
-                </div>
-
+        </span>
       </div>
-
-
+      <div class="row">
+        <div class="col s12 green"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script> <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/miJavaScript.js"></script>
 	</body>
 </html>
